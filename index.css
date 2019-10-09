@@ -1,0 +1,88 @@
+body {
+  background-color: #ffda79;
+  text-align: center;
+  color: #fff1e9;
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 0px;
+}
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.ctTime {
+  font-size: 150px;
+}
+
+.greetings {
+  font-size: 80px;
+}
+
+.toDoList {
+  list-style-type: none;
+}
+
+.ctTime,
+.greetings,
+.toDoForm,
+.weather,
+li,
+input {
+  margin: 10px 10px 20px 10px;
+  text-shadow: 2px 2px 3px #c3ada0;
+}
+
+li span {
+  margin-left: 10px;
+}
+
+li button {
+  background-color: transparent;
+  border: transparent;
+  color: #fff1e9;
+}
+
+input {
+  text-align: center;
+  width: 40%;
+  height: 40px;
+  background-color: transparent;
+  border: transparent;
+  margin-bottom: 0px;
+  color: #fff1e9;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+::placeholder {
+  color: #fff1e9;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+input:focus {
+  outline: none;
+}
