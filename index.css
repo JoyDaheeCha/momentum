@@ -55,6 +55,10 @@ input {
   text-shadow: 2px 2px 3px #c3ada0;
 }
 
+.ctTime {
+  margin-top: 10%;
+}
+
 li span {
   margin-left: 10px;
 }
